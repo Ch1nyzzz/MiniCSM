@@ -7,18 +7,18 @@ The base model is a fine-tuned T5-xxl designed for soft contextual adjustment on
 ---
 
 ## **1.Environment**
-'''bash
+'''
 pip install torch
 pip install transformers
 pip install peft
 pip install pandas
 pip install scikit-learn
 pip install tqdm
-pip install wandb
+pip install wandb'''
 
 **or** 
 '''bash
-pip install requirements.txt
+pip install requirements.txt'''
 
 ## **2.Dataset**
 ### **2.1Source**
