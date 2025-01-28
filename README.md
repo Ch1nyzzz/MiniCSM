@@ -30,3 +30,10 @@ pip install requirements.txt
 
 ## **3.Models**
 - You can find our teacher model  **https://huggingface.co/collections/ppaudel**
+- Student model are still under further training...
+
+## **4.Training Method** 
+- Leveraging **Contrastive Textual Deviation** : we formulating this triplet of i) a consensus statement, ii) a refuting evidence, and iii) a supporting evidence
+- <img width="400" alt="image" src="https://github.com/user-attachments/assets/ec882edf-a1ff-41a8-917b-01e937a2515e" /> <img width="397" alt="image" src="https://github.com/user-attachments/assets/f9d42862-2f78-458f-8329-cbb1a3a95356" />
+
+
