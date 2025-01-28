@@ -38,16 +38,9 @@ pip install requirements.txt
   <img width="400" alt="image" src="https://github.com/user-attachments/assets/ec882edf-a1ff-41a8-917b-01e937a2515e" />
   <img width="397" alt="image" src="https://github.com/user-attachments/assets/f9d42862-2f78-458f-8329-cbb1a3a95356" />
 - Aligning up middel hidden layers
-- 教师模型（Teacher Model）                 学生模型（Student Model）
-+-------------------------+               +-------------------------+
-| 输入层                  |               | 输入层                  |
-|        ...              |               |        ...              |
-| 编码器第6层             |<------------->| 编码器第3层             |
-|        ...              |               |        ...              |
-| 解码器第6层             |<------------->| 解码器第3层             |
-|        ...              |               |        ...              |
-| 输出层                  |               | 输出层                  |
-+-------------------------+               +-------------------------+
+  
+  <img width="623" alt="image" src="https://github.com/user-attachments/assets/787b2d0e-935a-4ad3-9179-45d5344054b7" />
+
 
 
 
