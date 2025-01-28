@@ -34,6 +34,19 @@ pip install requirements.txt
 
 ## **4.Training Method** 
 - Leveraging **Contrastive Textual Deviation** : we formulating this triplet of i) a consensus statement, ii) a refuting evidence, and iii) a supporting evidence
-- <img width="400" alt="image" src="https://github.com/user-attachments/assets/ec882edf-a1ff-41a8-917b-01e937a2515e" /> <img width="397" alt="image" src="https://github.com/user-attachments/assets/f9d42862-2f78-458f-8329-cbb1a3a95356" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/ec882edf-a1ff-41a8-917b-01e937a2515e" />
+  <img width="397" alt="image" src="https://github.com/user-attachments/assets/f9d42862-2f78-458f-8329-cbb1a3a95356" />
+- Aligning up middel hidden layers
+- 教师模型（Teacher Model）                 学生模型（Student Model）
++-------------------------+               +-------------------------+
+| 输入层                  |               | 输入层                  |
+|        ...              |               |        ...              |
+| 编码器第6层             |<------------->| 编码器第3层             |
+|        ...              |               |        ...              |
+| 解码器第6层             |<------------->| 解码器第3层             |
+|        ...              |               |        ...              |
+| 输出层                  |               | 输出层                  |
++-------------------------+               +-------------------------+
+
 
 
